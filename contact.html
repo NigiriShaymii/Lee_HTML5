@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>PhonePal Covid-19</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
 		<nav class="navbar">
@@ -19,7 +20,7 @@
 
 	<section>
 
-		
+		<div class="area">
 		  <form action="/action_page.php">
 			  	<div class="name">
 				    <label for="fname">First Name</label>
@@ -28,22 +29,26 @@
 				    <label for="lname">Last Name</label>
 				    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-				    <label for="reason">Reason: </label>
+				    <label for="reason">Reason: </label> 
+				    <!-- Listing complaints or application. Note that emails and submissions doesn't work -->
+
 				    <select id="reason" name="reason">
+				      <option value="pick">Choose a reason... </option>
 				      <option value="a">Recipient takes too long. </option>
 				      <option value="b">Recipient is rude.</option>
-				      <option value="c">Recipient shares wrong or misleading 
-				      <option value="d">Other</option>
+				      <option value="c">Recipient shares wrong or misleading. </option>
+				      <option value="d">Applying as a staff.</option>
+				      <option value="e">Other</option>
 				    </select>
 			    </div>
 
-			    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+			    <textarea id="subject" name="subject" placeholder="Input Reason" style="height:200px"></textarea>
 
 			    <input type="submit" value="Submit">
 
 			  </form>
-
-			  <p><em> Due to server overload, we will not be receiving any reports or complaints until it is fixed. Please come back later. </em></p>
+			</div>
+			  <p><em> Due to server overload, we will not be receiving any reports, applications, and complaints until it is fixed. Please come back later. </em></p>
 	</section>
 </body>
 
