@@ -12,7 +12,7 @@ body {
 	background-color: #e2edff;
 	background-repeat: no-repeat;
 	line-height: 1.8em;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif; /* Back up font if Source Sans Font does not work */
 }
 
 h1 {
@@ -52,13 +52,13 @@ img {
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 13px; /* Some padding */  
+    width: 100%; 
+    padding: 13px; 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-top: 6px; 
+    margin-bottom: 16px; 
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
@@ -87,6 +87,8 @@ input[type=submit]:hover {
 .name {
 	margin-right: 80%;
 }
+
+/* Applying Nav for the top of the webpages */
 .navbar {
 	background-color: #3399ff;
 	margin: 0;
