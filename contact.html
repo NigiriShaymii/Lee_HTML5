@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PhonePal Covid-19</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<nav class="navbar">
+			<ul>
+				<li><a href="index.html"> Home </a></li>
+				<li><a href="about.html"> About Us </a></li>
+				<li><a href="covid.html"> Covid-19 </a></li>
+				<li><a href="service.html"> Service </a></li>
+				<li><a href="contact.html"> Contact Us </a></li>
+			</ul>
+		</nav>
+
+	<section>
+		  <form action="/action_page.php">
+			  	<div class="name">
+				    <label for="fname">First Name</label>
+				    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				    <label for="lname">Last Name</label>
+				    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				    <label for="reason">Reason: </label>
+				    <select id="reason" name="reason">
+				      <option value="a">Recipient takes too long. </option>
+				      <option value="b">Recipient is rude.</option>
+				      <option value="c">Recipient shares wrong or misleading 
+				      <option value="d">Other</option>
+				    </select>
+			    </div>
+
+			    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+			    <input type="submit" value="Submit">
+
+			  </form>
+	</section>
+</body>
+
+</html>
