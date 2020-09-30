@@ -77,6 +77,10 @@ input[type=submit]:hover {
     background-color: #367cd8;
 }
 
+textarea {
+	height: 200px;
+}
+
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
@@ -146,6 +150,7 @@ button {
   padding: 20px;
   width: 200px;
   transition: all 0.5s;
+  vertical-align: middle;
 
   margin: 100px auto;
   box-shadow: 0 5px 50px 0 rgba(0,0,0,1), 0 6px 20px 0 rgba(0,0,0,0.19);
