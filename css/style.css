@@ -8,8 +8,8 @@ body {
 	height: 100%;
 	margin:0;
 	display: inline-block;
-	background: linear-gradient(#F3E2A9, #e2edff);
-	background-color: #e2edff;
+	background: white;
+	/* background-color: #e2edff; */
 	background-repeat: no-repeat;
 	line-height: 1.8em;
 	font-family: 'Montserrat', sans-serif; /* Back up font if Source Sans Font does not work */
@@ -21,7 +21,7 @@ h1 {
 	color: #3399ff;
 	margin: 150px;
 	text-align: center;
-	text-shadow: 2px 4px 5px #0E224C;
+	
 }
 
 h2 {
@@ -31,7 +31,7 @@ h2 {
 	margin: 25px;
 	padding-top: 100px;
 	text-align: center;
-	text-shadow: 2px 2px 5px #0E224C;
+
 }
 
 p {
@@ -139,10 +139,17 @@ textarea {
 	border-radius: 250px;
 }
 
+.box {
+	margin: 20px 100px;
+	border: 2px solid #e5e5e5;
+	border-radius: 5px;
+	padding: 0 100px;
+}
+
 button {
   display: block;
   border-radius: 4px;
-  background-color: #80bfff;
+  background-color: #3399ff;;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -153,7 +160,7 @@ button {
   vertical-align: middle;
 
   margin: 100px auto;
-  box-shadow: 0 5px 50px 0 rgba(0,0,0,1), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /*box-shadow: 0 5px 50px 0 rgba(0,0,0,1), 0 6px 20px 0 rgba(0,0,0,0.19); */
    }
 
   button span {
